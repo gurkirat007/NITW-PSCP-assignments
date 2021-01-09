@@ -1,3 +1,5 @@
 all:
-	g++ question_1.cpp -o question_1
+	g++ src/question_1.cpp -o bin/question_1.out
 
+clean:
+	rm -rf *.out

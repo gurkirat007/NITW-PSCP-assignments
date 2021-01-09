@@ -10,9 +10,11 @@ int main(void){
 	cout<<"C. car"<<endl;
 	cout<<"M. motorbike"<<endl;
 	cin>>vehicle_type;
+	//to accept both upper and lower case letters
 	vehicle_type=tolower(vehicle_type);
 	cout<<"Enter hours spent in parking lot"<<endl;
 	cin>>hours_in_parking;
+	//to calculate price based on vehicle type
 	switch(vehicle_type)
 	{
 		case 'c':
