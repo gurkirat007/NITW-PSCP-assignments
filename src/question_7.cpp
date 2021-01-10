@@ -34,7 +34,7 @@ int main(void){
 		cout<<"The substance is Silver"<<endl;
 	}
 	else{
-		cout<<"Unknown substance"
+		cout<<"Unknown substance"<<endl;
 	}
 	return 0;
 }
