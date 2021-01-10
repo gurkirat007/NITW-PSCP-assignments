@@ -1,4 +1,5 @@
 all:
+	mkdir -p bin
 	g++ src/question_1.cpp -o bin/question_1.out
 	g++ src/question_2.cpp -o bin/question_2.out
 	g++ src/question_3_new.cpp -o bin/question_3_new.out
@@ -10,4 +11,4 @@ all:
 	g++ src/question_10.cpp -o bin/question_10.out
 	g++ src/question_2.cpp -o bin/question_2.out
 clean:
-	rm -rf bin/*.out
+	rm -rf bin
